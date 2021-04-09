@@ -1,0 +1,20 @@
+Flyable.java
+ Flyable
+Eatable.java
+ Eatable
+Swimmable.java
+ Swimmable
+Parrot.java
+ Parrot
+Penguine.java
+ Penguine
+ToyDuck.java
+ ToyDuck
+Birds.java
+ Birds
+Duck.java
+ Duck
+BirdsSanctuary.java
+ BirdsSanctuary
+Main.java
+ Main
