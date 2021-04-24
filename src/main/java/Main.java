@@ -3,8 +3,7 @@ import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) throws BirdSanctuaryAddException {
         BirdsSanctuary birdssanctuary = BirdsSanctuary.getInstance();
         Duck duck = new Duck();
         Duck duck2 = new Duck();
@@ -15,10 +14,13 @@ public class Main {
         Penguine penguine1 = new Penguine();
         ToyDuck toyDuck = new ToyDuck();
         ToyDuck toyDuck1 = new ToyDuck();
+        ToyDuck toyDuck6 = new ToyDuck();
 
 
-        birdssanctuary.add(parrot);
+       birdssanctuary.add(parrot);
+       // parrot = null;
         birdssanctuary.add(duck);
+        birdssanctuary.add(null);
         birdssanctuary.add(penguine);
         birdssanctuary.add(duck2);
         birdssanctuary.add(duck3);
@@ -26,6 +28,7 @@ public class Main {
         birdssanctuary.add(penguine1);
         birdssanctuary.add(toyDuck);
         birdssanctuary.add(toyDuck1);
+        birdssanctuary.add(toyDuck6);
 
         birdssanctuary.removebird(duck2);
         birdssanctuary.removebird(duck3);
